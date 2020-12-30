@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: bb87fdb4631dbc14a8f47998485267f2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - _est-Gertrude.Start-0
+  - _est-Gertrude.Start-1
+  - _est-Gertrude.Start-2
+  - _est-Gertrude.Start-3
+  - _est-Gertrude.Start-4
+  - _est-Gertrude.Start-5
+  - _est-Gertrude.Start-6
+  - _est-Gertrude.Start-7
+  - _est-Gertrude.Start-8
+  - _est-Gertrude.Start-9
+  - _est-Gertrude.Start-10
+  - _est-Gertrude.Start-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: bb87fdb4631dbc14a8f47998485267f2, type: 3}
+  localizations: []
