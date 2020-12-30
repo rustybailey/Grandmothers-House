@@ -862,7 +862,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultVariables: []
+  defaultVariables:
+  - name: roomsVisited
+    value: 0
+    type: 0
+  - name: visitedKitchen
+    value: false
+    type: 2
+  - name: visitedGarden
+    value: false
+    type: 2
+  - name: visitedLivingRoom
+    value: false
+    type: 2
+  - name: visitedBedroom
+    value: false
+    type: 2
   debugTextView: {fileID: 0}
 --- !u!114 &1173909874
 MonoBehaviour:
@@ -950,7 +965,7 @@ MonoBehaviour:
   textLanguage: 
   variableStorage: {fileID: 1173909873}
   dialogueUI: {fileID: 1173909874}
-  startNode: Gertrude.Start
+  startNode: Kitchen.Start
   startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:

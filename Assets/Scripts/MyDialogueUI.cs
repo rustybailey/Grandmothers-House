@@ -100,7 +100,7 @@ public class MyDialogueUI : DialogueUI
 
     private void HandleNametagText(string speakerText)
     {
-        bool hasValidName = speakerText != "None";
+        bool hasValidName = speakerText != "Narration";
         if (hasValidName)
         {
             var nameTagTextMeshPro = nameTag.GetComponentInChildren<TextMeshProUGUI>();
