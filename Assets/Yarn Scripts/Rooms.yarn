@@ -1,6 +1,6 @@
 title: LivingRoom.Start
 tags: 
-position: 18.538119792938232,825.0882186889648
+position: 51.61904287338257,786.7840194702148
 ---
 <<set $visitedLivingRoom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
@@ -47,7 +47,7 @@ Shelby: Cya later!
 ===
 title: Kitchen.Start
 tags: 
-position: 27.40218923716867,-250.5984268190589
+position: 41.33099935679758,-83.45269966146611
 ---
 <<set $visitedKitchen to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
@@ -55,20 +55,19 @@ Narration: You walk into the kitchen. The light shines through the window over t
 Narration: You see stray crumbs from past cookies that once provided comfort. Shame the recipe isn’t with them.
 Narration: You start to clean out the cabinets above the stove, a variety of mugs ranging from theme park memorabilia to limited edition glassware.
 Narration: Then, in the top right, there’s the mug you made her when you were a child. It’s a bit yellowed due to the years of coffee stains. Years of love?
-Narration: Then, a crack.
-Narration: A bang.
+Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
 Frankie: You should see your face. (off screen)
-Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you… are you a ghost too?
+Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
-Frankie: Pranksssss! (cackling) Oh man, another win for me. You were scared. Absolutely scared.
+Frankie: <wiggle>Pranksssss!</wiggle> (cackling) Oh man, another win for me. You were scared. Absolutely scared.
 You: What are you talking about? I was/was not
-Frankie: Hey, I’m the real prankster here. Don’t try to steal my thunder (ghost reference?) You’re Grammy G’s kid?
+Frankie: Hey, I’m the real prankster here. Don’t try to steal my thunder. You’re Grammy G’s kid?
 You: No, grandkid.
-Frankie: Kid’s kid? Wow, so you must be old
+Frankie: Kid’s kid? Wow, so you must be old.
 You: That’s not very nice.
-Frankie: Just pranksssss. I’m full of jokes.
+Frankie: Just <wiggle>pranksssss</wiggle>. I’m full of jokes.
 You: (Silence)/ you’re not funny
 Frankie: Whatever. Nobody has a sense of humor anymore. Not like Grammy G, anyway. The other ghosts don’t get it.
 You: There are other ghosts?!/There are MORE?
@@ -80,39 +79,44 @@ Frankie: Some of them pull lame pranks. Big deal. But not like THIS!
 You: Did you just spill more coffee beans?
 Frankie: Classic (wiping away tear)
 You: Are all ghosts nice?/You must be the funniest ghost.
-Frankie: Wow, that’s… wow. Yes. Yes I am. Watch out for XX, though. One time he disappeared for a decade. I mean, that was hilarious.
+Frankie: Wow, that’s... wow. Yes. Yes I am. Watch out for Victor, though. One time he disappeared for a decade. I mean, that was hilarious.
 You: Did you prank grandmother often?
-Frankie: Oh, she loved it! We had a blast. That woman could take a joke and give them right back. One time, she put the coffee grounds in the wrong place so I couldn’t knock them over. I mean, what a genius! Almost stumped me with that one.
+Frankie: Oh, she loved it! We had a blast. That woman could take a joke and give them right back.
+Frankie: One time, she put the coffee grounds in the wrong place so I couldn’t knock them over. I mean, what a genius! Almost stumped me with that one.
 Narration: You look up at the mug again. You notice a slight crack is in the side.
-You: She used to make me coffee when I’d study./Did you break that?
-Frankie: That’s sweet. She really liked that mug, you know. The one you’re looking at. Always had it with cookies and milk./No, she really liked that mug. Always had it with cookies and milk.
+-> She used to make me coffee when I’d study.
+    Frankie: That’s sweet. She really liked that mug, you know. The one you’re looking at. Always had it with cookies and milk.
+-> Did you break that?
+    Frankie: No, she really liked that mug. Always had it with cookies and milk.
 You: Do you know if she kept that recipe?
 Frankie: I ripped it up.
 You: WHAT?
-Frankie: Kidding! Prankssss.
+Frankie: Kidding! <wiggle>Prankssss</wiggle>.
 You: So you know where it is?
 Frankie: Nope.
 You: You’re a great help.
 Frankie: Thanks.
-Narration: I liked it when she made cookies. They smelled even better the next day when she dipped them in her coffee. Something about the coffee beans and the blueberries in the cookies. It was chill. Made the house feel like a home.
-You: I’m selling the house…
+You: I liked it when she made cookies. They smelled even better the next day when she dipped them in her coffee.
+You: Something about the coffee beans and the blueberries in the cookies. It was chill. Made the house feel like a home.
+You: By the way, we're selling the house...
 Frankie: Hilarious!
 You: No, really.
 Frankie: Wow. Dang. I guess it’ll be time for me to move on then.
 You: I’m sorry.
-Frankie: GOTCHA. Pranks! I’m staying here forever!
-You: Did… you die here?
+Frankie: GOTCHA. <wiggle>Pranks!</wiggle> I’m staying here forever!
+You: Did... you die here?
 Frankie: Coffee hazard got me.
 You: So, you’re stuck?
 Frankie: Not as stuck as you. OH ZINGER.
 You: I’m nervous.
 Frankie: Bet some cookies would help, huh?
-You: …./Yeah, they would.
+You: Yeah, they would.
 Frankie: Sure would be the bees knees.
-You: .../Yep
+You: Yep
 Frankie: Well, good luck.
-You: If someone dies here, do they stay?
-Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here. Sorry, kid. I wish. Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
+You: ...If someone dies here, do they stay?
+Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here. Sorry, kid. I wish.
+Frankie: Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
 Narration: You look at the mug in the cabinet again.
 Frankie: ...yeah, okay, I broke the mug. I felt bad, but I didn’t mean to.
 You: Well I’m gonna go look for the recipe.
@@ -121,7 +125,7 @@ Frankie: Don’t forget to say hi to Victor!
 ===
 title: Bedroom.Start
 tags: 
-position: 524.2299779901562,521.8230946719468
+position: 595.6151708612499,534.0107777774156
 ---
 <<set $visitedBedroom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
@@ -162,7 +166,7 @@ Edith: I’ll see you around.
 ===
 title: Garden.Start
 tags: 
-position: -405.9065595894889,514.2822219493611
+position: -505.1493574410514,543.8809768321736
 ---
 <<set $visitedGarden to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
@@ -217,14 +221,14 @@ Gertrude: Good luck!
 ===
 title: Victor.Start
 tags: 
-position: 368.28260803222656,919.428466796875
+position: 467.52537536621094,1352.9627075195312
 ---
 Ghost: Sup.
 You: I just pooped my pants.
 ===
 title: SelectRoom
 tags: 
-position: 40.04147720336914,414.7096862792969
+position: 43.523677825927734,233.63516235351562
 ---
 Narration: Where to next?
 <<if $roomsVisited < 4>>
