@@ -230,7 +230,7 @@ Narration: Where to next?
 <<if $roomsVisited < 4>>
     -> Kitchen <<if $visitedKitchen is false>>
         [[Kitchen.Start]]
-    -> LivingRoom <<if $visitedLivingRoom is false>>
+    -> Living Room <<if $visitedLivingRoom is false>>
         [[LivingRoom.Start]]
     -> Bedroom <<if $visitedBedroom is false>>
         [[Bedroom.Start]]
