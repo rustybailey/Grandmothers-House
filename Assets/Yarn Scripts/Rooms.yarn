@@ -288,7 +288,9 @@ title: Intro.Start
 tags: 
 position: 27.811403274536133,-756.0548706054688
 ---
+<<set_background MomRoom>>
 <<set_all_characters_inactive>>
+<<set_active_character Mom>>
 
 Narration: Placeholder for intro scene.
 [[ExternalHouse.Start]]
@@ -297,6 +299,7 @@ title: ExternalHouse.Start
 tags: 
 position: 38.01107798319498,-404.3281561933283
 ---
+<<set_background HouseExterior>>
 <<set_all_characters_inactive>>
 
 Narration: Placeholder for the external house scene.

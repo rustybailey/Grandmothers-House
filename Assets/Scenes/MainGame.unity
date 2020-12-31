@@ -1016,6 +1016,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596824390}
   m_CullTransparentMesh: 0
+--- !u!1 &696801604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696801605}
+  - component: {fileID: 696801607}
+  m_Layer: 0
+  m_Name: Mom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &696801605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696801604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 983513480}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &696801607
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696801604}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 0e224d9ff3080c04b9de23d0e3a018e9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.54, y: 9.57}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &764390445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1270,7 @@ Transform:
   - {fileID: 1117815490}
   - {fileID: 1647194404}
   - {fileID: 133174888}
+  - {fileID: 696801605}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1428,7 +1511,7 @@ MonoBehaviour:
   textLanguage: 
   variableStorage: {fileID: 1173909873}
   dialogueUI: {fileID: 1173909874}
-  startNode: Victor.Start
+  startNode: Intro.Start
   startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:
@@ -1501,6 +1584,7 @@ MonoBehaviour:
   - {fileID: 1117815489}
   - {fileID: 1647194403}
   - {fileID: 133174886}
+  - {fileID: 696801604}
   backgroundImage: {fileID: 1815671309}
   roomBackgrounds:
   - name: Garden
@@ -1511,6 +1595,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: a316970b3dcc06448900e332686b7fb0, type: 3}
   - name: Bedroom
     sprite: {fileID: 21300000, guid: 5a0a7e29ed9f190469154ebf863ee226, type: 3}
+  - name: MomRoom
+    sprite: {fileID: 21300000, guid: b8e5ee0e5c58edf438c0cc0b3058ef26, type: 3}
+  - name: HouseExterior
+    sprite: {fileID: 21300000, guid: 23dd355199eca934c8dd023214437d4c, type: 3}
 --- !u!4 &1174303519
 Transform:
   m_ObjectHideFlags: 0
