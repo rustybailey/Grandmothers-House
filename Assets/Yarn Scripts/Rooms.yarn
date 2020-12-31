@@ -5,9 +5,11 @@ position: 724.5971846580505,504.4099655151367
 <<set $visitedLivingRoom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background LivingRoom>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
 Narration: You wander into the living room and flip on the light. There are boxes of books and VHS tapes piled up next to the couch. You pick up a tape with “Possessed Murder Doll” written on the side.
+<<show_item Tape>>
+<<wait 2>>
 
 <<set_active_character Shelby>>
 Shelby: Ahhhh! Put that away!
@@ -30,7 +32,7 @@ Shelby: I get frightened everytime I look in the mirror!
 You: Maybe don’t look in a mirror?
 Shelby: What about other reflective surfaces? I can’t escape me! I live my entire afterlife in absolute terror!
 You: Ok, calm down.
-Shelby: DON’T TELL ME TO BE CALM!
+Shelby: <shake>DON’T TELL ME TO BE CALM!</shake>
 You: ...
 Shelby: ... Sorry, lost it a bit there.
 You: You sure did.
@@ -56,11 +58,12 @@ position: 41.33099935679758,-86.93490409872197
 <<set $visitedKitchen to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Kitchen>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
 Narration: You walk into the kitchen. The light shines through the window over the sink, illuminating the dust on the countertops.
 Narration: You see stray crumbs from past cookies that once provided comfort. Shame the recipe isn’t with them.
 Narration: You start to clean out the cabinets above the stove, a variety of mugs ranging from theme park memorabilia to limited edition glassware.
+<<show_item Cup>>
 Narration: Then, in the top right, there’s the mug you made her when you were a child. It’s a bit yellowed due to the years of coffee stains. Years of love?
 Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
@@ -138,10 +141,15 @@ position: 25.70575841761206,770.8549550235093
 <<set $visitedBedroom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Bedroom>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
-Narration: Grandma’s bedroom is exactly how she left it. The crocheted blanket is folded at the end of the quilted comforter. On the bedside table, you see a picture of Grandma and Grandpa on their wedding day. They look so young. So happy. You wonder if they look the same now that they’re back together…
-Narration: There’s a stack of photo albums littered on the floor. It echoes memories of her flipping through them with you as a child. She always said you looked like your grandfather. You always said you looked more like her. Floating over an open photo album is another ghost.
+Narration: Grandma’s bedroom is exactly how she left it. The crocheted blanket is folded at the end of the quilted comforter.
+Narration: On the bedside table, you see a picture of Grandma and Grandpa on their wedding day.
+<<show_item Photo>>
+<<wait 2>>
+Narration: They look so young. So happy. You wonder if they look the same now that they’re back together…
+Narration: There’s a stack of photo albums littered on the floor. It echoes memories of her flipping through them with you as a child.
+Narration: She always said you looked like your grandfather. You always said you looked more like her. Floating over an open photo album is another ghost.
 
 <<set_active_character Edith>>
 Edith: You’re not here to take the albums, are you?
@@ -184,7 +192,7 @@ position: -506.8904463082389,543.8809768321736
 <<set $visitedGarden to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Garden>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
 Narration: You walk towards the back of the house and grab the cool handle of the sliding glass door. As you pull it open, the winter wind rushes in and bites at your skin.
 Narration: The garden has wilted by now, but the landscaping brings a smile to your face. At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
@@ -203,7 +211,7 @@ You: Oh.
 Gertrude: I’m trying to grow these blueberries that she would mix in her cookies.
 You: Oh! I’m actually looking for that recipe. Do you happen to know where it is?
 Gertrude: I don’t know what a recipe is, but I found this.
-// << Trowel appears on screen>>
+<<show_item Trowel>>
 You: Oh, wow! I remember getting her that for Christmas one year as a kid.
 You: Mom told me later that she already had a better one, but she ended up using that one all the time. Made me feel pretty good.
 Gertrude: Ok.
@@ -241,7 +249,7 @@ tags:
 position: 29.77641773223877,1263.3887329101562
 ---
 <<set_background Kitchen>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
 Narration: You journey back to the kitchen, feeling underwhelmed that you couldn’t find that darn recipe. Maybe it’s just your luck. Maybe you weren’t meant to have it. Or maybe…
 Narration: You hear a whining creak, and the sound of the kitchen door pushing open with a low groan. But the smell of the being that enters is... pleasant?
@@ -255,6 +263,7 @@ You: I was told you smell like feet.
 Victor: ...
 You: ...
 Victor: Looking for this?
+<<show_item Recipe>>
 You: Oh... uh... yes. I am. Thank you.
 Victor: She wanted you to have it. Her cookies were the best.
 You: Did you ever have them?
@@ -289,7 +298,7 @@ tags:
 position: 27.811403274536133,-756.0548706054688
 ---
 <<set_background MomRoom>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 <<set_active_character Mom>>
 
 Narration: Placeholder for intro scene.
@@ -300,8 +309,10 @@ tags:
 position: 38.01107798319498,-404.3281561933283
 ---
 <<set_background HouseExterior>>
-<<set_all_characters_inactive>>
+<<disable_all_things>>
 
 Narration: Placeholder for the external house scene.
+<<show_item Phone>>
+<<wait 2>>
 [[Kitchen.Start]]
 ===

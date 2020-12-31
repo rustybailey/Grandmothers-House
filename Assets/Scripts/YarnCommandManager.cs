@@ -10,6 +10,7 @@ public class YarnCommandManager : MonoBehaviour
     [SerializeField] DialogueRunner dialogueRunner;
 
     [SerializeField] GameObject[] characters;
+    [SerializeField] GameObject[] items;
 
     [SerializeField] Image backgroundImage;
 
@@ -25,20 +26,22 @@ public class YarnCommandManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        foreach(GameObject character in characters)
-        {
-            character.SetActive(false);
-        }
-
-        backgroundDict = new Dictionary<string, Sprite>();
-        foreach(RoomBackground background in roomBackgrounds)
-        {
-            backgroundDict.Add(background.name, background.sprite);
-        }
+        DisableAllThings(new string[0]);
+        PopulateBackgroundSpriteDictionary();
 
         dialogueRunner.AddCommandHandler("set_background", SetBackground);
         dialogueRunner.AddCommandHandler("set_active_character", SetActiveCharacter);
-        dialogueRunner.AddCommandHandler("set_all_characters_inactive", SetAllCharactersInactive);
+        dialogueRunner.AddCommandHandler("show_item", ShowItem);
+        dialogueRunner.AddCommandHandler("disable_all_things", DisableAllThings);
+    }
+
+    private void PopulateBackgroundSpriteDictionary()
+    {
+        backgroundDict = new Dictionary<string, Sprite>();
+        foreach (RoomBackground background in roomBackgrounds)
+        {
+            backgroundDict.Add(background.name, background.sprite);
+        }
     }
 
     private void SetBackground(string[] parameters)
@@ -54,11 +57,32 @@ public class YarnCommandManager : MonoBehaviour
         }
     }
 
+    private void ShowItem(string[] parameters)
+    {
+        foreach (GameObject item in items)
+        {
+            item.SetActive(item.name == parameters[0]);
+        }
+    }
+
     private void SetAllCharactersInactive(string[] parameters)
     {
         foreach (GameObject character in characters)
         {
             character.SetActive(false);
         }
+    }
+    private void SetAllItemsInactive(string[] parameters)
+    {
+        foreach (GameObject item in items)
+        {
+            item.SetActive(false);
+        }
+    }
+
+    private void DisableAllThings(string[] parameters)
+    {
+        SetAllCharactersInactive(parameters);
+        SetAllItemsInactive(parameters);
     }
 }
