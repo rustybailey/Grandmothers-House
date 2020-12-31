@@ -863,9 +863,9 @@ MonoBehaviour:
   waitForNormalChars: 0.03
   waitLong: 0.6
   waitMiddle: 0.2
-  avoidMultiplePunctuactionWait: 0
+  avoidMultiplePunctuactionWait: 1
   waitForNewLines: 1
-  waitForLastCharacter: 1
+  waitForLastCharacter: 0
 --- !u!114 &547272005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   textLanguage: 
   variableStorage: {fileID: 1173909873}
   dialogueUI: {fileID: 1173909874}
-  startNode: Bedroom.Start
+  startNode: Victor.Start
   startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:
@@ -1495,7 +1495,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 1173909875}
-  dialogueUi: {fileID: 1173909874}
   characters:
   - {fileID: 764390445}
   - {fileID: 1937326394}

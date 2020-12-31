@@ -238,17 +238,32 @@ Gertrude: Good luck!
 ===
 title: Victor.Start
 tags: 
-position: 141.93943786621094,1749.9337768554688
+position: 29.77641773223877,1263.3887329101562
 ---
 <<set_background Kitchen>>
 <<set_all_characters_inactive>>
 
-Narration: Narration here
-
+Narration: You journey back to the kitchen, feeling underwhelmed that you couldn’t find that darn recipe. Maybe it’s just your luck. Maybe you weren’t meant to have it. Or maybe…
+Narration: You hear a whining creak, and the sound of the kitchen door pushing open with a low groan. But the smell of the being that enters is... pleasant?
+Narration: A crisp, wintery smell that reminds you of snowball fights in the garden and hot chocolate by the fireplace. Comfort.
 
 <<set_active_character Victor>>
-Victor: Sup.
-You: I just pooped my pants.
+
+You: <shake>HOLY CRAP!</shake>
+Victor: I know.
+You: I was told you smell like feet.
+Victor: ...
+You: ...
+Victor: Looking for this?
+You: Oh... uh... yes. I am. Thank you.
+Victor: She wanted you to have it. Her cookies were the best.
+You: Did you ever have them?
+Victor: No.
+You: Oh.
+Victor: I saw how they made others feel. That was good enough.
+You: It was.
+Victor: So, how do you feel now?
+You: I feel like... I think I’m going to be okay.
 ===
 title: SelectRoom
 tags: 
