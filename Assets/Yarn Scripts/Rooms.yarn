@@ -1,14 +1,15 @@
 title: LivingRoom.Start
 tags: 
-position: 724.5971846580505,507.89217376708984
+position: 724.5971846580505,504.4099655151367
 ---
 <<set $visitedLivingRoom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background LivingRoom>>
-<<set_active_character Shelby>>
+<<set_all_characters_inactive>>
 
 Narration: You wander into the living room and flip on the light. There are boxes of books and VHS tapes piled up next to the couch. You pick up a tape with “Possessed Murder Doll” written on the side.
 
+<<set_active_character Shelby>>
 Shelby: Ahhhh! Put that away!
 You: What? The movie?
 Shelby: Yes! How can you watch stuff like that?
@@ -50,12 +51,12 @@ Shelby: Cya later!
 ===
 title: Kitchen.Start
 tags: 
-position: 41.33099935679758,-83.45269966146611
+position: 41.33099935679758,-86.93490409872197
 ---
 <<set $visitedKitchen to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Kitchen>>
-<<set_active_character Frankie>>
+<<set_all_characters_inactive>>
 
 Narration: You walk into the kitchen. The light shines through the window over the sink, illuminating the dust on the countertops.
 Narration: You see stray crumbs from past cookies that once provided comfort. Shame the recipe isn’t with them.
@@ -64,7 +65,8 @@ Narration: Then, in the top right, there’s the mug you made her when you were 
 Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
-Frankie: You should see your face. (off screen)
+<<set_active_character Frankie>>
+Frankie: You should see your face.
 Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
 Frankie: <wiggle>Pranksssss!</wiggle> (cackling) Oh man, another win for me. You were scared. Absolutely scared.
@@ -131,15 +133,17 @@ Frankie: Don’t forget to say hi to Victor!
 ===
 title: Bedroom.Start
 tags: 
-position: 25.70575841761206,773.4939931094468
+position: 25.70575841761206,770.8549550235093
 ---
 <<set $visitedBedroom to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Bedroom>>
-<<set_active_character Edith>>
+<<set_all_characters_inactive>>
 
 Narration: Grandma’s bedroom is exactly how she left it. The crocheted blanket is folded at the end of the quilted comforter. On the bedside table, you see a picture of Grandma and Grandpa on their wedding day. They look so young. So happy. You wonder if they look the same now that they’re back together…
 Narration: There’s a stack of photo albums littered on the floor. It echoes memories of her flipping through them with you as a child. She always said you looked like your grandfather. You always said you looked more like her. Floating over an open photo album is another ghost.
+
+<<set_active_character Edith>>
 Edith: You’re not here to take the albums, are you?
 You: Probably/Not sure yet
 Edith: Then I’d like one last look at them. They looked so happy. I liked it when she was happy. I just want people to be happy.
@@ -175,16 +179,17 @@ Edith: I’ll see you around.
 ===
 title: Garden.Start
 tags: 
-position: -505.1493574410514,543.8809768321736
+position: -506.8904463082389,543.8809768321736
 ---
 <<set $visitedGarden to true>>
 <<set $roomsVisited to $roomsVisited + 1>>
 <<set_background Garden>>
-<<set_active_character Gertrude>>
+<<set_all_characters_inactive>>
 
 Narration: You walk towards the back of the house and grab the cool handle of the sliding glass door. As you pull it open, the winter wind rushes in and bites at your skin.
 Narration: The garden has wilted by now, but the landscaping brings a smile to your face. At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
 
+<<set_active_character Gertrude>>
 Gertrude: Oh! H-hi! I didn’t know we'd have visitors.
 You: Hi, I’m X’s grandchild. I’m here for the summer to help clean up the place.
 Gertrude: I’m Gertrude! And what do you mean “clean up”? Is it not clean enough? 
@@ -233,17 +238,21 @@ Gertrude: Good luck!
 ===
 title: Victor.Start
 tags: 
-position: 467.52537536621094,1352.9627075195312
+position: 141.93943786621094,1749.9337768554688
 ---
 <<set_background Kitchen>>
-<<set_active_character Victor>>
+<<set_all_characters_inactive>>
 
+Narration: Narration here
+
+
+<<set_active_character Victor>>
 Victor: Sup.
 You: I just pooped my pants.
 ===
 title: SelectRoom
 tags: 
-position: 43.523677825927734,233.63516235351562
+position: 43.523677825927734,232.11944580078125
 ---
 Narration: Where to next?
 <<if $roomsVisited < 4>>
@@ -258,4 +267,23 @@ Narration: Where to next?
 <<else>>
     [[Go back to the kitchen|Victor.Start]]
 <<endif>>
+===
+
+title: Intro.Start
+tags: 
+position: 27.811403274536133,-756.0548706054688
+---
+<<set_all_characters_inactive>>
+
+Narration: Placeholder for intro scene.
+[[ExternalHouse.Start]]
+===
+title: ExternalHouse.Start
+tags: 
+position: 38.01107798319498,-404.3281561933283
+---
+<<set_all_characters_inactive>>
+
+Narration: Placeholder for the external house scene.
+[[Kitchen.Start]]
 ===

@@ -8,7 +8,7 @@ using Yarn.Unity;
 public class YarnCommandManager : MonoBehaviour
 {
     [SerializeField] DialogueRunner dialogueRunner;
-    
+
     [SerializeField] GameObject[] characters;
 
     [SerializeField] Image backgroundImage;
@@ -38,9 +38,8 @@ public class YarnCommandManager : MonoBehaviour
 
         dialogueRunner.AddCommandHandler("set_background", SetBackground);
         dialogueRunner.AddCommandHandler("set_active_character", SetActiveCharacter);
-        dialogueRunner.AddCommandHandler("fade_in_ghost", FadeInGhost);
+        dialogueRunner.AddCommandHandler("set_all_characters_inactive", SetAllCharactersInactive);
     }
-
 
     private void SetBackground(string[] parameters)
     {
@@ -55,14 +54,11 @@ public class YarnCommandManager : MonoBehaviour
         }
     }
 
-    private void SetActiveCharacterTransparency(string[] parameters)
+    private void SetAllCharactersInactive(string[] parameters)
     {
-        // TODO: Set transparency to 0
-    }
-
-    private void FadeInGhost(string[] parameters)
-    {
-        // TODO: Create an animation which fades
-        // TODO: Play this animation on the active character
+        foreach (GameObject character in characters)
+        {
+            character.SetActive(false);
+        }
     }
 }

@@ -1428,7 +1428,7 @@ MonoBehaviour:
   textLanguage: 
   variableStorage: {fileID: 1173909873}
   dialogueUI: {fileID: 1173909874}
-  startNode: Kitchen.Start
+  startNode: Bedroom.Start
   startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:
@@ -1495,6 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 1173909875}
+  dialogueUi: {fileID: 1173909874}
   characters:
   - {fileID: 764390445}
   - {fileID: 1937326394}
