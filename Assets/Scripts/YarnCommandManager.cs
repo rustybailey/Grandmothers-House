@@ -51,7 +51,6 @@ public class YarnCommandManager : MonoBehaviour
     {
         foreach (GameObject character in characters)
         {
-            Debug.Log(character.name + ", " + parameters[0]);
             character.SetActive(character.name == parameters[0]);
         }
     }
