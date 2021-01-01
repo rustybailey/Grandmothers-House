@@ -44,6 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffects:
+  - name: Crunch
+    audioClip: {fileID: 8300000, guid: d344c2986ab5f5045b55a5af393be1d0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
   - name: PhoneVibrate
     audioClip: {fileID: 8300000, guid: cd08b712e7eff5a4489c62ebfbd3b98a, type: 3}
     volume: 1
@@ -64,4 +69,34 @@ MonoBehaviour:
     volume: 0.8
     pitch: 1
     loop: 1
+  - name: FrontDoorOpening
+    audioClip: {fileID: 8300000, guid: b4ce330b4370c374bb60c16a78b7b38c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: PickUpBook
+    audioClip: {fileID: 8300000, guid: e4abdb9ccbf183c4f8effb0421a915c0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: CeramicCup
+    audioClip: {fileID: 8300000, guid: 4450991b8afa5c94bb9306adea18c9a3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: PickingUpPaper
+    audioClip: {fileID: 8300000, guid: 5861031360bd10b4089f4a951d7ed1a8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Shovel
+    audioClip: {fileID: 8300000, guid: 3ef73fc934ba2ff4981af74def07c2f9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: VHSTape
+    audioClip: {fileID: 8300000, guid: 0fa29c9939da1bb49ba2c44393754446, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
   musicTracks: []

@@ -30,9 +30,9 @@ public class StartGame : MonoBehaviour
     private IEnumerator LoadMainGame()
     {
         titleDoilySpriteRender.sprite = titleDoilies[1];
-        // TODO: Play crunch sound
+        AudioManager.instance.PlaySoundEffect("Crunch");
         // TODO: Add scene transitions
-        yield return new WaitForSeconds(1.2f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("MainGame");
     }
 }
