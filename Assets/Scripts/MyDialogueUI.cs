@@ -5,21 +5,25 @@ using System.Text;
 using UnityEngine;
 using Yarn.Unity;
 using TMPro;
+using UnityEngine.UI;
 
 public class MyDialogueUI : DialogueUI
 {
+    [SerializeField] GameObject nameTagObject;
+    [SerializeField] Sprite[] nameTagSprites;
+
     public bool isTyping = false;
 
     // When true, the user has indicated that they want to proceed to
     // the next line.
     private bool userRequestedNextLine = false;
-    private GameObject nameTag;
     private Febucci.UI.TextAnimatorPlayer textAnimatorPlayer;
+    private Image nameTagObjectImage;
 
     private void Start()
     {
-        nameTag = GameObject.Find("Nametag");
         textAnimatorPlayer = FindObjectOfType<Febucci.UI.TextAnimatorPlayer>();
+        nameTagObjectImage = nameTagObject.GetComponent<Image>();
     }
 
     /// Runs a line.
@@ -103,13 +107,18 @@ public class MyDialogueUI : DialogueUI
         bool hasValidName = speakerText != "Narration";
         if (hasValidName)
         {
-            var nameTagTextMeshPro = nameTag.GetComponentInChildren<TextMeshProUGUI>();
-            nameTagTextMeshPro.text = speakerText;
-            nameTag.SetActive(true);
+            foreach (Sprite nameTagSprite in nameTagSprites)
+            {
+                if (String.Equals(nameTagSprite.name, "tag-" + speakerText, StringComparison.OrdinalIgnoreCase))
+                {
+                    nameTagObjectImage.sprite = nameTagSprite;
+                    nameTagObject.SetActive(true);
+                }
+            }
         }
         else
         {
-            nameTag.SetActive(false);
+            nameTagObject.SetActive(false);
         }
     }
 
