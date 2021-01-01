@@ -63,10 +63,10 @@ position: 41.33099935679758,-86.93490409872197
 
 Narration: You walk into the kitchen. The light shines through the window over the sink, illuminating the dust on the countertops.
 Narration: You see stray crumbs from past cookies that once provided comfort. Shame the recipe isn’t with them.
-Narration: You start to clean out the cabinets above the stove, a variety of mugs ranging from theme park memorabilia to limited edition glassware.
+Narration: You start to look through the cabinets above the stove and see a variety of mugs ranging from theme park memorabilia to limited edition glassware.
 <<show_item Cup>>
 <<play_sfx CeramicCup>>
-Narration: Then, in the top left, there’s the mug you made her when you were a child. It’s a bit yellowed due to the years of coffee stains. Years of love?
+Narration: In the top left, there’s the mug you made her when you were a child. It’s a bit yellowed due to the years of coffee stains. Years of love?
 Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
@@ -75,65 +75,62 @@ Frankie: You should see your face.
 Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
 Frankie: <wiggle>Pranksssss!</wiggle> (cackling) Oh man, another win for me. You were scared. Absolutely scared.
-You: What are you talking about? I was/was not
+You: What are you talking about? I was not.
 Frankie: Hey, I’m the real prankster here. Don’t try to steal my thunder. You’re Grammy G’s kid?
 You: No, grandkid.
-Frankie: Kid’s kid? Wow, so you must be old.
+Frankie: Kid’s kid? Wow, so you must be a baby.
 You: That’s not very nice.
 Frankie: Just <wiggle>pranksssss</wiggle>. I’m full of jokes.
-You: (Silence)/ you’re not funny
-Frankie: Whatever. Nobody has a sense of humor anymore. Not like Grammy G, anyway. The other ghosts don’t get it.
-You: There are other ghosts?!/There are MORE?
+You: ...
+Frankie: Whatever. Nobody has a sense of humor anymore. Not like Grammy G did, anyway. The other ghosts don’t get it.
+You: There are other ghosts?!
 Frankie: Eh, they’re livin’ in Snoozeville, if you know what I mean.
-You: I don’t/Absolutely, Daddy-O
-Frankie: Figures/See, you get it!
+You: I don’t.
+Frankie: Figures.
 You: So, the ghosts?
 Frankie: Some of them pull lame pranks. Big deal. But not like THIS!
 You: Did you just spill more coffee beans?
 Frankie: Classic (wiping away tear)
-You: Are all ghosts nice?/You must be the funniest ghost.
-Frankie: Wow, that’s... wow. Yes. Yes I am. Watch out for Victor, though. One time he disappeared for a decade. I mean, that was hilarious.
-You: Did you prank grandmother often?
-Frankie: Oh, she loved it! We had a blast. That woman could take a joke and give them right back.
-Frankie: One time, she put the coffee grounds in the wrong place so I couldn’t knock them over. I mean, what a genius! Almost stumped me with that one.
-Narration: You look up at the mug again. You notice a slight crack is in the side.
--> She used to make me coffee when I’d study.
-    Frankie: That’s sweet. She really liked that mug, you know. The one you’re looking at. Always had it with cookies and milk.
--> Did you break that?
+You: You must be the "funny" ghost.
+Frankie: Wow, that’s... wow. Yes. Yes I am.
+Frankie: Watch out for Victor though. One time he disappeared for a decade.  Weird, but hilarious.
+-> Did you prank grandmother often?
+    Frankie: Oh, she loved it! We had a blast. That woman could take a joke and give them right back.
+    Frankie: One time, she put the coffee grounds in the wrong place so I couldn’t knock them over. I mean, what a genius! Almost stumped me with that one.
+    Narration: You look up at the mug again. You notice a slight crack is in the side.
+    You: Did you break that?
     Frankie: No, she really liked that mug. Always had it with cookies and milk.
-You: Do you know if she kept that recipe?
+    Narration: You look at the mug in the cabinet again.
+    Frankie: ...yeah, okay, I broke the mug. I felt bad, but I didn’t mean to.
+-> Did... you die here?
+    Frankie: Coffee hazard got me.
+    You: Coffee hazard?
+    Frankie: Yup. Got burnt... to death.
+    You: Oh God.
+    Frankie: Yeah, not the most pleasant way to go, but I died doing what I love.
+    You: Drinking coffee?
+    Frankie: No, drinking coffee while driving my motorcycle!
+    You: I don't think it was the coffee that killed you.
+    Frankie: Yup, pretty sure it was a coffee burn.
+You: Do you know where she kept that cookie recipe?
 Frankie: I ripped it up.
-You: WHAT?
+You: <shake>WHAT?</shake>
 Frankie: Kidding! <wiggle>Prankssss</wiggle>.
 You: So you know where it is?
-Frankie: Nope.
-You: You’re a great help.
-Frankie: Thanks.
-You: I liked it when she made cookies. They smelled even better the next day when she dipped them in her coffee.
-You: Something about the coffee beans and the blueberries in the cookies. It was chill. Made the house feel like a home.
+Frankie: No, but you might want to look for Victor. I bet he has an idea of where it could be.
+// You: I liked it when she made cookies. They smelled even better the next day when she dipped them in her coffee.
+// You: Something about the coffee beans and the blueberries in the cookies. It was chill. Made the house feel like a home.
 You: By the way, we're selling the house...
 Frankie: Hilarious!
 You: No, really.
 Frankie: Wow. Dang. I guess it’ll be time for me to move on then.
 You: I’m sorry.
 Frankie: GOTCHA. <wiggle>Pranks!</wiggle> I’m staying here forever!
-You: Did... you die here?
-Frankie: Coffee hazard got me.
-You: So, you’re stuck?
-Frankie: Not as stuck as you. OH ZINGER.
-You: I’m nervous.
-Frankie: Bet some cookies would help, huh?
-You: Yeah, they would.
-Frankie: Sure would be the bees knees.
-You: Yep
-Frankie: Well, good luck.
 You: ...If someone dies here, do they stay?
 Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here. Sorry, kid. I wish.
 Frankie: Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
-Narration: You look at the mug in the cabinet again.
-Frankie: ...yeah, okay, I broke the mug. I felt bad, but I didn’t mean to.
 You: Well I’m gonna go look for the recipe.
-Frankie: Don’t forget to say hi to Victor!
+Frankie: Say hi to Victor for me!
 [[SelectRoom]]
 ===
 title: Bedroom.Start
