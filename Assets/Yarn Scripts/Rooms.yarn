@@ -286,8 +286,6 @@ position: 43.523677825927734,232.11944580078125
 ---
 Narration: Where to next?
 <<if $roomsVisited < 4>>
-    -> Kitchen <<if $visitedKitchen is false>>
-        [[Kitchen.Start]]
     -> Living Room <<if $visitedLivingRoom is false>>
         [[LivingRoom.Start]]
     -> Bedroom <<if $visitedBedroom is false>>
