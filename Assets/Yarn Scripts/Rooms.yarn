@@ -310,7 +310,21 @@ position: 27.811403274536133,-756.0548706054688
 <<play_sfx BackgroundChatter>>
 <<play_sfx RoomtoneHall>>
 
-Narration: Placeholder for intro scene.
+Mom: How ya doin kid?
+You: I’ve been better.
+Mom: I’m sorry. I know you and Grandma were close.
+You: It’s just weird to think that she’s gone.
+Mom: Yeah...
+Mom: I know you're busy, but I have a favor to ask.
+You: What’s that?
+Mom: I need you to come by her house tomorrow to help us clean it out before we sell.
+You: Sure, anything I can do to help.
+Mom: Thanks. I am just <wave>DYING</wave> to have this all behind us.
+You: Mom. Too soon.
+Mom: Sorry, you know I don’t deal well with this stuff.
+You: It’s okay. I’ll head over first thing so we can start early.
+Mom: Thanks honey. At the very least I think I just need you there with me.
+You: Of course.
 
 <<stop_sfx BackgroundChatter>>
 <<stop_sfx RoomtoneHall>>
@@ -324,7 +338,8 @@ position: 38.01107798319498,-404.3281561933283
 <<disable_all_things>>
 
 <<play_sfx BirdsOutside>>
-Narration: Placeholder for the exterior house scene. Describe stuff.
+Narration: The next morning...
+You: (It doesn't look like anyone is here.)
 <<play_sfx PhoneVibrate>>
 <<wait 1>>
 You: (Is that Mom?)
