@@ -300,8 +300,13 @@ position: 27.811403274536133,-756.0548706054688
 <<set_background MomRoom>>
 <<disable_all_things>>
 <<set_active_character Mom>>
+<<play_sfx BackgroundChatter>>
+<<play_sfx RoomtoneHall>>
 
 Narration: Placeholder for intro scene.
+
+<<stop_sfx BackgroundChatter>>
+<<stop_sfx RoomtoneHall>>
 [[ExternalHouse.Start]]
 ===
 title: ExternalHouse.Start
@@ -311,8 +316,22 @@ position: 38.01107798319498,-404.3281561933283
 <<set_background HouseExterior>>
 <<disable_all_things>>
 
-Narration: Placeholder for the external house scene.
+<<play_sfx BirdsOutside>>
+Narration: Placeholder for the exterior house scene. Describe stuff.
+<<play_sfx PhoneVibrate>>
+<<wait 1>>
+You: (Is that Mom?)
 <<show_item Phone>>
-<<wait 2>>
+<<wait 1>>
+<<play_sfx PhoneVibrate>>
+<<wait 1>>
+Mom: Sorry, we're going to be late.
+You: Not a problem!
+Mom: You've still got a key, right?
+You: Yeah, I'll just wait inside for a bit.
+Mom: Ok! Again, so sorry. We'll be there as soon as we can.
+You: (Maybe I can finally find that cookie recipe that Grandma kept secret.)
+You: (I should check out the kitchen.)
+<<stop_sfx BirdsOutside>>
 [[Kitchen.Start]]
 ===

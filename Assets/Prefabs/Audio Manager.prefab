@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4333463322616732189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6811746817587502552}
+  - component: {fileID: 5935729523413814057}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6811746817587502552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4333463322616732189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5935729523413814057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4333463322616732189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af7123d63f2d2947ac669307225ccca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - name: PhoneVibrate
+    audioClip: {fileID: 8300000, guid: cd08b712e7eff5a4489c62ebfbd3b98a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: BirdsOutside
+    audioClip: {fileID: 8300000, guid: 4e53a5b2438670d488b65fc80002f63c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: BackgroundChatter
+    audioClip: {fileID: 8300000, guid: 8cbe8352d44dde14985fee9a09d6faad, type: 3}
+    volume: 0.19
+    pitch: 1
+    loop: 1
+  - name: RoomtoneHall
+    audioClip: {fileID: 8300000, guid: 52a1cff16add077488bd493f58559a77, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+  musicTracks: []

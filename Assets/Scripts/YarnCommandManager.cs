@@ -33,6 +33,30 @@ public class YarnCommandManager : MonoBehaviour
         dialogueRunner.AddCommandHandler("set_active_character", SetActiveCharacter);
         dialogueRunner.AddCommandHandler("show_item", ShowItem);
         dialogueRunner.AddCommandHandler("disable_all_things", DisableAllThings);
+        dialogueRunner.AddCommandHandler("play_sfx", PlaySfx);
+        dialogueRunner.AddCommandHandler("play_music", PlayMusic);
+        dialogueRunner.AddCommandHandler("stop_sfx", StopSfx);
+        dialogueRunner.AddCommandHandler("stop_music", StopMusic);
+    }
+
+    private void StopSfx(string[] parameters)
+    {
+        AudioManager.instance.StopSoundEffect(parameters[0]);
+    }
+
+    private void PlaySfx(string[] parameters)
+    {
+        AudioManager.instance.PlaySoundEffect(parameters[0]);
+    }
+
+    private void PlayMusic(string[] parameters)
+    {
+        AudioManager.instance.PlayMusic(parameters[0]);
+    }
+
+    private void StopMusic(string[] parameters)
+    {
+        AudioManager.instance.StopCurrentlyPlayingMusic();
     }
 
     private void PopulateBackgroundSpriteDictionary()
