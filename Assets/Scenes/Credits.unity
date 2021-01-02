@@ -469,7 +469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486077473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -517.28, y: -2832, z: -9721.554}
+  m_LocalPosition: {x: -517.28, y: -2982, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -550,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505997982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -659, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1550186355}
@@ -634,7 +634,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2027.9275}
+  m_Offset: {x: 0, y: -2934.491}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -645,7 +645,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1920, y: 5135.855}
+  m_Size: {x: 1920, y: 6948.982}
   m_EdgeRadius: 0
 --- !u!114 &579813192
 MonoBehaviour:
@@ -862,44 +862,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<size="120%"><b>Credits</b></size>
-
-
-    <b>Game Design, Story, Writing</b>
-
-    Rusty
-    Bailey
-
-    Julie Bailey
-
-
-    <b>Art</b>
-
-    Julie Bailey
-
-
-    <b>Programming</b>
-
-    Rusty
-    Bailey
-
-
-    <b>Tools</b>
-
-    Yarn Spinner by Secret Lab
-
-    Text Animator
-    for Unity by febucci
-
-
-    <b>Sound Effects</b>
-
-    <TODO>
-
-
-    <b>Music</b>
-
-    <TODO>'
+  m_text: "<size=\"100%\"><b>Credits</b></size>\r\n\r\n<size=\"60%\"><b>Game Design,
+    Story, Writing</b></size>\r\n<size=\"50%\">Rusty Bailey\r\nJulie Bailey</size>\r\n\r\n<size=\"60%\"><b>Art</b></size>\r\n<size=\"50%\">Julie
+    Bailey</size>\r\n\r\n<size=\"60%\"><b>Programming</b></size>\r\n<size=\"50%\">Rusty
+    Bailey</size>\r\n\r\n<size=\"60%\"><b>Additional Tools</b></size>\r\n<size=\"50%\">Yarn
+    Spinner by Secret Lab\r\nText Animator for Unity by febucci</size>\r\n\r\n<size=\"60%\"><b>Sound
+    Effects</b></size>\r\n<size=\"40%\">From freesound</size>\r\n<size=\"30%\">\r\n\"Cell
+    Phone Vibrate.wav\" by SmartWentCody\r\nis licensed under CC BY 3.0\r\n\r\n\"Ceramic_Mug_Cup.wav\"
+    by Jamitch2\r\nis licensed under CC0 1.0\r\n\r\n\"Chewing Crunch Cornflakes Knuspern\r\nSchnurpsen
+    Eating Essen Munch\" by Borgory\r\nis licensed under CC0 1.0\r\n\r\n\"Door Squeak,
+    Normal, D.wav\" by InspectorJ\r\nis licensed under CC BY 3.0\r\n\r\n\"Door, Front,
+    Opening, A.wav\" by InspectorJ\r\nis licensed under CC BY 3.0\r\n\r\n\"Picking
+    up one paper.wav\" by usamah\r\nis licensed under CC0 1.0\r\n\r\n\"PickupBook2.wav\"
+    by jomse\r\nis licensed under CC BY 3.0\r\n\r\n\"RECEPTION - Background chatter
+    (AMB)\" by MorneDelport\r\nis licensed under CC BY-NC 3.0\r\n\r\n\"RoomTone Hall
+    32x8x3 AC LONG 130626_01.wav\" by klankbeeld\r\nis licensed under CC BY 3.0\r\n\r\n\"Shoveling\"
+    by andersmmg\r\nis licensed under CC BY 3.0\r\n\r\n\"Spring Birds Loop with Low-Cut
+    (New Jersey)\" by hargissssound\r\nis licensed under CC0 1.0\r\n\r\n\"VHS Tape\"
+    by coltures\r\nis licensed under CC0 1.0\r\n\r\n\"Wind low rumble swipe.wav\"
+    by alexkandrell\r\nis licensed under CC BY 3.0</size>\r\n\r\n<size=\"60%\"><b>Music</b></size>\r\n<size=\"40%>From
+    Free Music Archive</size>\r\n<size=\"30%\">\r\n\"Lullaby\" by The Ghost in Your
+    Piano\r\nis licensed under CC BY-NC 4.0\r\n\r\n\"The Beauty of Maths\" by Meyd\xE4n\r\nis
+    licensed under CC BY 4.0\r\n\r\n\"Tired of life\" by Meyd\xE4n\r\nis licensed
+    under CC BY 4.0\r\n\r\n</size><size=\"40%\">\r\nFrom Open Game Art\r\n</size><size=\"30%\">\r\n\"A
+    Lucid Dream\" by CaliDerium\r\nis licensed under CC BY 3.0\r\n\r\n\"Blueberries\"
+    by Viktor Kraus\r\nis licensed under CC BY 3.0\r\n\r\n\"Cate\" by Cakeflaps @
+    You're Perfect Studio\r\nis licensed under CC BY 4.0\r\n\r\n\"Jazz Funk\" by
+    Joe Reynolds - Professorlamp\r\nis licensed under CC BY 3.0\r\n\r\n\"Walking
+    On Clouds\" by Kim Lightyear\r\nis licensed under CC BY 3.0\r\n</size>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9e1dfa37ddbbc64448f37f2b0958e874, type: 2}
   m_sharedMaterial: {fileID: 499486297736662240, guid: 9e1dfa37ddbbc64448f37f2b0958e874, type: 2}
@@ -1010,7 +1000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.502155, y: -4524}
+  m_AnchoredPosition: {x: 11.502155, y: -6318}
   m_SizeDelta: {x: 1295.4373, y: 100.640076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184598203
@@ -1234,7 +1224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314819590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 534, y: -2349, z: -9721.554}
+  m_LocalPosition: {x: 534, y: -2475, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -1316,7 +1306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328200235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -481.2, y: -3763, z: -9721.554}
+  m_LocalPosition: {x: -438, y: -4528, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -1473,7 +1463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535635685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 484.87, y: -3446, z: -9721.554}
+  m_LocalPosition: {x: 528, y: -3848, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}

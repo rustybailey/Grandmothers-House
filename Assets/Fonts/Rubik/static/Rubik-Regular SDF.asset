@@ -2577,19 +2577,19 @@ MonoBehaviour:
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: 5c1ea5c1bd4f0524a93374c3d2bf2159, type: 2}
     italicTypeface: {fileID: 0}
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: 73d38b1187651db40afbac79116b88fd, type: 2}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: c8214a2f612c9e7439bd63bcca3dd3b0, type: 2}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: a9061214e97faac44b6e11e2f65b2587, type: 2}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: d2b96efca5796d24391d20a797a1c3ed, type: 2}
     italicTypeface: {fileID: 0}
-  - regularTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 11400000, guid: 7080b25781e9c2a40ab5eb81d340936d, type: 2}
     italicTypeface: {fileID: 0}
   fontWeights: []
   normalStyle: 0
