@@ -17,7 +17,7 @@ Narration: You wander into the living room and flip on the light. There are boxe
 Shelby: Ahhhh! Put that away!
 You: What? The movie?
 Shelby: Yes! How can you watch stuff like that?
-You: Well, I wasn’t watching it, I was just looking.
+You: Well, I wasn’t watching it. I was just looking.
 Shelby: Yeah... but still.
 You: Do you not like scary movies?
 Shelby: No, those are just awful.
@@ -47,9 +47,10 @@ You: Actually, I'm trying to find her famous cookie recipe.
 Shelby: Oh, those smelled so nice!
 You: Do you remember where she kept it?
 Shelby: No, but I’ve heard Victor does.
-You: The ghost that smells like rotten eggs and toe jam?
-Shelby: That’s the one! Hard to miss.
-You: Ok, I’ll guess I’ll try to find him. Thanks for the chat.
+You: The ghost that can singe your nose hairs?
+Shelby: That’s the one! You must have heard of him.
+You: Yeah, Frankie mentioned him.
+You: Ok, I guess I’ll try to find him. Thanks for the chat.
 Shelby: Cya later!
 [[SelectRoom]]
 ===
@@ -75,7 +76,10 @@ Narration: And... the sound of sand? No, coffee grounds on the floor, tipping ou
 <<play_music JazzFunk>>
 You: <shake>A GHOST?!?</shake>
 Frankie: You should see your face.
-Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
+Frankie: Look in a mirror. It’s great. (laughing)
+You: Who are you?
+Frankie: You can call me Frankie.
+Frankie: Did you say you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
 Frankie: <wiggle>Pranksssss!</wiggle> (cackling) Oh man, another win for me. You were scared. Absolutely scared.
 You: No... I was just exclaiming a fact. Loudly.
@@ -134,7 +138,7 @@ You: That shouldn't be hard to miss.
 // Frankie: GOTCHA. <wiggle>Pranks!</wiggle> I’m staying here forever!
 Frankie: If your nose hairs are tingling, you're getting closer.
 You: Is... my Grandma a ghost here?
-Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here. Sorry, kid. I wish.
+Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here.
 Frankie: Consider it a good thing. She had no unfinished business.
 // Frankie: Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
 You: Yeah, I guess so.
