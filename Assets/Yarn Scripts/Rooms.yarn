@@ -278,7 +278,8 @@ You: Oh.
 Victor: I saw how they made others feel. That was good enough.
 You: It was.
 Victor: So, how do you feel now?
-You: I feel like... I think I’m going to be okay.
+You: I think that...
+<<load_scene Credits>>
 ===
 title: SelectRoom
 tags: 

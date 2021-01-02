@@ -1873,15 +1873,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6095506387020638461, guid: f02ee12830c23724aa03343207466c23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.294398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6095506387020638461, guid: f02ee12830c23724aa03343207466c23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -38.5054
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6095506387020638461, guid: f02ee12830c23724aa03343207466c23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.071323
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6095506387020638461, guid: f02ee12830c23724aa03343207466c23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1924,26 +1924,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 5935729523413814057, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
-      propertyPath: musicTracks.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935729523413814057, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
-      propertyPath: musicTracks.Array.data[0].name
-      value: GhostInYourPianoLullaby
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935729523413814057, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
-      propertyPath: musicTracks.Array.data[0].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935729523413814057, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
-      propertyPath: musicTracks.Array.data[0].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5935729523413814057, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
-      propertyPath: musicTracks.Array.data[0].audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 50fd236ccac7ef14f86765d3920316a1, type: 3}
     - target: {fileID: 6811746817587502552, guid: 30f49d9cc45042847b21f39bea91dc69, type: 3}
       propertyPath: m_RootOrder
       value: 3

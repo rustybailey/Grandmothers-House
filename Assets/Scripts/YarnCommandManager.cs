@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
+using UnityEngine.SceneManagement;
 
 public class YarnCommandManager : MonoBehaviour
 {
@@ -37,6 +38,12 @@ public class YarnCommandManager : MonoBehaviour
         dialogueRunner.AddCommandHandler("play_music", PlayMusic);
         dialogueRunner.AddCommandHandler("stop_sfx", StopSfx);
         dialogueRunner.AddCommandHandler("stop_music", StopMusic);
+        dialogueRunner.AddCommandHandler("load_scene", LoadSceneByName);
+    }
+
+    private void LoadSceneByName(string[] parameters)
+    {
+        SceneManager.LoadScene(parameters[0]);
     }
 
     private void StopSfx(string[] parameters)

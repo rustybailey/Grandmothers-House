@@ -122,7 +122,8 @@ public class MyDialogueUI : DialogueUI
         }
     }
 
-    // TODO: Customize this so that we can use TextAnimator's typing functionality
+    // Conditionally using Text Animator function or DialogueUI function depending
+    // on whether we're currently typing
     public void HandleUserInput()
     {
         // If line has not finished displaying, skip to the end
@@ -133,6 +134,8 @@ public class MyDialogueUI : DialogueUI
         else
         {
             // If line has finished typing, trigger next line
+            // Couldn't simply call DialogueUI.MarkLineComplete since I am
+            // keep track of a new version of this variable in this subclass
             userRequestedNextLine = true;
         }
 

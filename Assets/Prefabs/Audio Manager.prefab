@@ -99,4 +99,9 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
-  musicTracks: []
+  musicTracks:
+  - name: GhostInYourPianoLullaby
+    audioClip: {fileID: 8300000, guid: 50fd236ccac7ef14f86765d3920316a1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
