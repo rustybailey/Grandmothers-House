@@ -1555,8 +1555,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I feel like I'm going to be okay...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 73d38b1187651db40afbac79116b88fd, type: 2}
-  m_sharedMaterial: {fileID: -383025510176953751, guid: 73d38b1187651db40afbac79116b88fd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c8214a2f612c9e7439bd63bcca3dd3b0, type: 2}
+  m_sharedMaterial: {fileID: 5326831263386094263, guid: c8214a2f612c9e7439bd63bcca3dd3b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
