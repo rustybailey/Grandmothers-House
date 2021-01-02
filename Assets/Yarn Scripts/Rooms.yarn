@@ -26,7 +26,7 @@ Shelby: And they didn’t scare you?
 You: Oh yeah, I was scarred for life. But... I look back on those times fondly.
 Shelby: Fondly?
 You: Yeah, despite the fact that they were scary movies, that was our time. I’ll always cherish that.
-Shelby: <weirdo>
+Shelby: <size="40%"><wave>weirdo</wave></size>
 You: Wait. How can you be so scared? Aren’t you a ghost?
 Shelby: Yes! And it’s terrifying!
 You: Terrifying?
@@ -41,9 +41,9 @@ You: You sure did.
 Shelby: So what are you here for anyways? I thought we had this place to ourselves now.
 You: Well, I’ve been sent to clean the place before we sell it...
 Shelby: Bummer. Can I still live here?
-You: Has that stopped you before?
-Shelby: Nope!
-You: Well, right now I’m looking for her famous cookie recipe.
+You: I guess?
+Shelby: Were you looking for something?
+You: Actually, I'm trying to find her famous cookie recipe.
 Shelby: Oh, those smelled so nice!
 You: Do you remember where she kept it?
 Shelby: No, but I’ve heard Victor does.
@@ -73,12 +73,13 @@ Narration: And... the sound of sand? No, coffee grounds on the floor, tipping ou
 
 <<set_active_character Frankie>>
 <<play_music JazzFunk>>
+You: <shake>A GHOST?!?</shake>
 Frankie: You should see your face.
 Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
 Frankie: <wiggle>Pranksssss!</wiggle> (cackling) Oh man, another win for me. You were scared. Absolutely scared.
-You: What are you talking about? I was not.
-Frankie: Hey, I’m the real prankster here. Don’t try to steal my thunder. You’re Grammy G’s kid?
+You: No... I was just exclaiming a fact. Loudly.
+Frankie: Hey, don’t try to steal my thunder. You’re Grammy G’s kid?
 You: No, grandkid.
 Frankie: Kid’s kid? Wow, so you must be a baby.
 You: That’s not very nice.
@@ -95,8 +96,8 @@ You: Did you just spill more coffee beans?
 Frankie: Classic (wiping away tear)
 You: You must be the "funny" ghost.
 Frankie: Wow, that’s... wow. Yes. Yes I am.
-Frankie: Watch out for Victor though. One time he disappeared for a decade.  Weird, but hilarious.
--> Did you prank grandmother often?
+Frankie: Watch out for Victor though. One time he disappeared for a decade. Weird, but hilarious.
+-> Did you prank grandmother?
     Frankie: Oh, she loved it! We had a blast. That woman could take a joke and give them right back.
     Frankie: One time, she put the coffee grounds in the wrong place so I couldn’t knock them over. I mean, what a genius! Almost stumped me with that one.
     Narration: You look up at the mug again. You notice a slight crack is in the side.
@@ -105,7 +106,7 @@ Frankie: Watch out for Victor though. One time he disappeared for a decade.  Wei
     Narration: You look at the mug in the cabinet again.
     Frankie: ...yeah, okay, I broke the mug. I felt bad, but I didn’t mean to.
 -> Did... you die here?
-    Frankie: Coffee hazard got me.
+    Frankie: No, a coffee hazard got me.
     You: Coffee hazard?
     Frankie: Yup. Got burnt... to death.
     You: Oh God.
@@ -118,19 +119,25 @@ You: Do you know where she kept that cookie recipe?
 Frankie: I ripped it up.
 You: <shake>WHAT?</shake>
 Frankie: Kidding! <wiggle>Prankssss</wiggle>.
-You: So you know where it is?
+You: So do you know where it is?
 Frankie: No, but you might want to look for Victor. I bet he has an idea of where it could be.
-// You: I liked it when she made cookies. They smelled even better the next day when she dipped them in her coffee.
-// You: Something about the coffee beans and the blueberries in the cookies. It was chill. Made the house feel like a home.
-You: By the way, we're selling the house...
-Frankie: Hilarious!
-You: No, really.
-Frankie: Wow. Dang. I guess it’ll be time for me to move on then.
-You: I’m sorry.
-Frankie: GOTCHA. <wiggle>Pranks!</wiggle> I’m staying here forever!
-You: ...If someone dies here, do they stay?
+You: Who is that?
+Frankie: A super-old, smelly ghost.
+You: That's it?
+Frankie: Yeah, but it's real bad. Like hot garbage and toe jam.
+You: That shouldn't be hard to miss.
+// You: By the way, we're selling the house...
+// Frankie: Hilarious!
+// You: No, really.
+// Frankie: Wow. Dang. I guess it’ll be time for me to move on then.
+// You: I’m sorry.
+// Frankie: GOTCHA. <wiggle>Pranks!</wiggle> I’m staying here forever!
+Frankie: If your nose hairs are tingling, you're getting closer.
+You: Is... my Grandma a ghost here?
 Frankie: Awk-ward. Listen, if you’re looking for Grammy G, she isn’t here. Sorry, kid. I wish.
-Frankie: Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
+Frankie: Consider it a good thing. She had no unfinished business.
+// Frankie: Can you imagine? Maybe I’d be able to eat those cookies instead of just smelling them.
+You: Yeah, I guess so.
 You: Well I’m gonna go look for the recipe.
 Frankie: Say hi to Victor for me!
 [[SelectRoom]]
@@ -156,37 +163,56 @@ Narration: She always said you looked like your grandfather. You always said you
 
 <<set_active_character Edith>>
 Edith: You’re not here to take the albums, are you?
-You: Probably/Not sure yet
-Edith: Then I’d like one last look at them. They looked so happy. I liked it when she was happy. I just want people to be happy.
+You: At some point, yeah.
+Edith: Then I’d like one last look at them. They looked so happy.
+Edith: I liked it when she was happy. I just want people to be happy.
 You: Are you happy?
+Edith: I'm a ghost. I make do.
+You: Why do you care about these pictures?
 Edith: They might be worth a lot of money now.
 You: Uh… I think those are just wedding pictures.
-Edith: They might be displayed in a museum. The high. The louvre. I don’t know which I’d give it to. Choices, choices…
+Edith: They might be displayed in a museum. The High. The Louvre. I don’t know which I’d give it to. Choices, choices…
 You: Sorry, are these yours?
 Edith: Well, of course!
-You: Did you photograph her wedding?
-Edith: Yes, she was one of my best friends. She gave me my first wedding gig.
-You: Oh, that's awesome!
-Edith: I clearly had no idea what I was doing when I photographed her wedding, but I’ve improved by leaps and bounds.
-Narration: You look at the photo album dated many years after their wedding. Some are blurred or off center. One looks like it might have a thumb in the corner of the frame.
-Edith: I’m sorry, can I help you?
-You: Oh, right, I’m cleaning. Well, finding a cookie recipe, actually.
+-> You photographed her wedding?
+    Edith: Yes, she was one of my best friends. She gave me my first wedding gig.
+    You: Oh, that's awesome!
+    Edith: I clearly had no idea what I was doing when I photographed her wedding, but I’ve improved by leaps and bounds.
+    Narration: You look at the photo album dated many years after their wedding. Some are blurred or off center. One looks like it might have a thumb in the corner of the frame.
+    You: What do you remember about Grandma?
+    Edith: She was the nicest person I knew. Never had a bad thing to say about anyone.
+    You: That sounds like her.
+-> Did you do other photography?
+    Edith: I was known for my bird photography.
+    You: Oh, that's cool. What was your favorite bird?
+    Edith: The pigeon.
+    You: That doesn't seem very exotic.
+    Edith: No, but it's all I had access to.
+    You: So you were a pigeon photographer?
+    Edith: I mean, that's not the only thing I photographed.
+    You: ...
+    Edith: But yeah, I was known as the pigeon photographer.
+Edith: Did you come in here for something?
+You: Oh, right. I'm looking for her cookie recipe, actually.
 Edith: Are you making those blueberry cookies she used to bake? Oh, you should. I always loved those. 
 You: Yes! Do you know where the recipe is?
-Edith: No. Can’t find anything around here. I can’t even find my camera.
+Edith: Victor may know. I can’t find anything around here. I can’t even find my camera.
+You: The one around your neck?
+Edith: No, no. It was a different one with a long lens.
 You: When did you last see it?
 Edith: Twenty years ago.
 You: Oh.
 Edith: I miss it.
+You: ...
 You: I miss her.
 Edith: Me too.
-You: I’m sorry for your loss.
-Edith: I’m sorry for yours.
-You: ...
-Edith: You know, she was always good at comforting me when I’d lose things. She was always so helpful. I bet you anything if you really put your heart into it, you could make those cookies yourself.
+Edith: I’m sorry for your loss.
+You: ... Thanks.
+Edith: You know, she was always good at comforting me when I’d lose things.
+Edith: I bet you anything if you really put your heart into it, you could make those cookies yourself.
 You: Hey, thanks. I bet you could find your camera.
-Edith: Probably not. But it’s okay. We all need to move on eventually.
-You: That’d be nice.
+Edith: No, that one is long gone. But we all need to move on eventually.
+You: Yeah.
 Edith: I’ll see you around.
 [[SelectRoom]]
 ===
@@ -205,9 +231,10 @@ Narration: The garden has wilted by now, but the landscaping brings a smile to y
 
 <<set_active_character Gertrude>>
 Gertrude: Oh! H-hi! I didn’t know we'd have visitors.
-You: Hi, I’m X’s grandchild. I’m here for the summer to help clean up the place.
+You: Hi, I’m Grammy G’s grandchild. I’m here for the summer to help clean up the place.
 Gertrude: I’m Gertrude! And what do you mean “clean up”? Is it not clean enough? 
-You: Well, I just need to tidy before we sell. Speaking of, the garden is not quite how I remember. Where are the herbs and veggies?
+You: Well, I just need to tidy before we put it on the market.
+You: Speaking of, the garden is not quite how I remember. Where are the herbs and veggies?
 Gertrude: I tried keeping up the garden, but I don’t have the green thumb she did. I don’t really have thumbs at all anymore. Hehehe.
 You: What have you tried planting?
 Gertrude: Do you know beets?
@@ -221,10 +248,8 @@ Gertrude: I don’t know what a recipe is, but I found this.
 <<play_sfx Shovel>>
 <<wait 1>>
 You: Oh, wow! I remember getting her that for Christmas one year as a kid.
-You: Mom told me later that she already had a better one, but she ended up using that one all the time. Made me feel pretty good.
-Gertrude: Ok.
-You: ...
-Gertrude: ...
+You: Mom told me later that she already had a better one, but she ended up using the one I got her all the time. Made me feel pretty good.
+Gertrude: Nice.
 You: Is it helping you with your gardening?
 Gertrude: No, but I’m not sure if I’m doing something wrong.
 You: Well, it doesn’t help that you’re holding it upside down.
@@ -240,15 +265,17 @@ Gertrude: Well, I used it didn’t I?
 You: At least some things are living.
 Gertrude: That one is fake. I needed a goal to work towards.
 You: Have you gotten anything going yet?
-Gertrude: Not in all my years! :)
+Gertrude: Not in all my years!
 You: ...
 Gertrude: But ya know, your grandmother was always patient with me. I will miss our poor gardening activities.
-You: Yeah... me too... :/
+You: Yeah... me too...
 Gertrude: ...
 Gertrude: Victor is not nearly as patient... He’s always mocking my plants.
-You: That stinks. He definitely creeped me out.
-Gertrude: I don’t know what his deal is... probably something about “unfinished business”
-You: Well, thanks for the tip about the blueberries. I guess I’ll keep looking around the house for that recipe.
+You: Frankie mentioned him. Should I know anything before I meet him?
+Gertrude: He's been here for hundreds of years. If anyone knows where the recipe is, he would?
+You: Do you know where I could find him?
+Gertrude: Just keep looking. He'll be lurking in some dark corner of the house.
+You: Well, thanks for the tip. I'll keep an eye out.
 Gertrude: Good luck!
 [[SelectRoom]]
 ===
@@ -282,12 +309,12 @@ Victor: She would have wanted you to have it. Her cookies were the best.
 You: Did you ever have them?
 Victor: No.
 You: Oh.
-Victor: I saw how they made others feel. That was good enough.
+Victor: But I saw how they made others feel. That was good enough.
 You: It was.
 Victor: So, how do you feel now?
-You: I think that...
-<<fade_out_music 1>>
-<<wait 1>>
+You: I feel like...
+<<fade_out_music 1.5>>
+<<wait 1.5>>
 <<load_scene Credits>>
 ===
 title: SelectRoom

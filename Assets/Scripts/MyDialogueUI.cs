@@ -17,12 +17,12 @@ public class MyDialogueUI : DialogueUI
     // When true, the user has indicated that they want to proceed to
     // the next line.
     private bool userRequestedNextLine = false;
-    private Febucci.UI.TextAnimatorPlayer textAnimatorPlayer;
+    [SerializeField] Febucci.UI.TextAnimatorPlayer textAnimatorPlayer;
     private Image nameTagObjectImage;
 
     private void Start()
     {
-        textAnimatorPlayer = FindObjectOfType<Febucci.UI.TextAnimatorPlayer>();
+        //textAnimatorPlayer = FindObjectOfType<Febucci.UI.TextAnimatorPlayer>();
         nameTagObjectImage = nameTagObject.GetComponent<Image>();
     }
 

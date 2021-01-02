@@ -102,41 +102,41 @@ MonoBehaviour:
   musicTracks:
   - name: GhostInYourPianoLullaby
     audioClip: {fileID: 8300000, guid: 50fd236ccac7ef14f86765d3920316a1, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 0
   - name: BeautyofMaths
     audioClip: {fileID: 8300000, guid: 662448c10c823174584f812b9300f1d9, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: SadIntro
     audioClip: {fileID: 8300000, guid: e74c4d28dd56cf347b59fe4d5f97d5ba, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: JazzFunk
     audioClip: {fileID: 8300000, guid: 4f6919721ae19f54d86e9b799819b9da, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: Cate
     audioClip: {fileID: 8300000, guid: 5aec368b648d12f428b4a87ed51727bd, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: WalkingOnClouds
     audioClip: {fileID: 8300000, guid: 3fb1a4bbf7df6634d8bb20fbf1fbc1f2, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: Blueberries
     audioClip: {fileID: 8300000, guid: 1d6cea2dd4b45244ea8028b3670105ab, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1
   - name: ALucidDream
     audioClip: {fileID: 8300000, guid: 2e6640642d0e0354eb048de767f85647, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     loop: 1

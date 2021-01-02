@@ -1671,10 +1671,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I think I'm going to be okay...
+  m_text: I feel like I'm going to be okay...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a9061214e97faac44b6e11e2f65b2587, type: 2}
-  m_sharedMaterial: {fileID: -5472991754195352586, guid: a9061214e97faac44b6e11e2f65b2587, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 73d38b1187651db40afbac79116b88fd, type: 2}
+  m_sharedMaterial: {fileID: -383025510176953751, guid: 73d38b1187651db40afbac79116b88fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

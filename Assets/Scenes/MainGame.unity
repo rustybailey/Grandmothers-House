@@ -1695,7 +1695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf65a31e8b91ca4397f35f39bdeff05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 0}
+  dialogueContainer: {fileID: 950663986}
   textSpeed: 0
   optionButtons:
   - {fileID: 1950664177}
@@ -1703,7 +1703,19 @@ MonoBehaviour:
   - {fileID: 1781390}
   onDialogueStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 950663988}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: Select
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDialogueEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -1774,6 +1786,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 074bac5cd2f1ce24fbd06f513b88ecf7, type: 3}
   - {fileID: 21300000, guid: 17d8f91f30c84c3469503220da7d81a0, type: 3}
   isTyping: 0
+  textAnimatorPlayer: {fileID: 547272004}
 --- !u!114 &1173909875
 MonoBehaviour:
   m_ObjectHideFlags: 0
