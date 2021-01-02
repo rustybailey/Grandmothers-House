@@ -71,6 +71,7 @@ Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
 <<set_active_character Frankie>>
+<<play_music JazzFunk>>
 Frankie: You should see your face.
 Frankie: Look in a mirror. It’s great. (laughing) Oh no. You’re saying you can’t see yourself? Are you... are you a ghost too?
 You: I never said that.
@@ -307,6 +308,7 @@ position: 27.811403274536133,-756.0548706054688
 <<set_active_character Mom>>
 <<play_sfx BackgroundChatter>>
 <<play_sfx RoomtoneHall>>
+<<play_music SadIntro>>
 
 Mom: How ya doin kid?
 You: I’ve been better.

@@ -105,3 +105,18 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+  - name: BeautyofMaths
+    audioClip: {fileID: 8300000, guid: 662448c10c823174584f812b9300f1d9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: SadIntro
+    audioClip: {fileID: 8300000, guid: e74c4d28dd56cf347b59fe4d5f97d5ba, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: JazzFunk
+    audioClip: {fileID: 8300000, guid: 4f6919721ae19f54d86e9b799819b9da, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1

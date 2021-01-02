@@ -30,6 +30,7 @@ public class StartGame : MonoBehaviour
     private IEnumerator LoadMainGame()
     {
         titleDoilySpriteRender.sprite = titleDoilies[1];
+        AudioManager.instance.StopCurrentlyPlayingMusic();
         AudioManager.instance.PlaySoundEffect("Crunch");
         // TODO: Add scene transitions
         yield return new WaitForSeconds(1f);
