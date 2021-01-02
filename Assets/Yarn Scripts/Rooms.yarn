@@ -14,6 +14,7 @@ Narration: You wander into the living room and flip on the light. There are boxe
 <<wait 2>>
 
 <<set_active_character Shelby>>
+<<play_sfx GhostFadeIn>>
 Shelby: Ahhhh! Put that away!
 You: What? The movie?
 Shelby: Yes! How can you watch stuff like that?
@@ -73,6 +74,7 @@ Narration: Then, a crack. A bang.
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
 <<set_active_character Frankie>>
+<<play_sfx GhostFadeIn>>
 <<play_music JazzFunk>>
 You: <shake>A GHOST?!?</shake>
 Frankie: You should see your face.
@@ -166,6 +168,7 @@ Narration: There’s a stack of photo albums littered on the floor. It echoes me
 Narration: She always said you looked like your grandfather. You always said you looked more like her. Floating over an open photo album is another ghost.
 
 <<set_active_character Edith>>
+<<play_sfx GhostFadeIn>>
 Edith: You’re not here to take the albums, are you?
 You: At some point, yeah.
 Edith: Then I’d like one last look at them. They looked so happy.
@@ -234,6 +237,7 @@ Narration: You walk towards the back of the house and grab the cool handle of th
 Narration: The garden has wilted by now, but the landscaping brings a smile to your face. At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
 
 <<set_active_character Gertrude>>
+<<play_sfx GhostFadeIn>>
 Gertrude: Oh! H-hi! I didn’t know we'd have visitors.
 You: Hi, I’m Grammy G’s grandchild. I’m here for the summer to help clean up the place.
 Gertrude: I’m Gertrude! And what do you mean “clean up”? Is it not clean enough? 
@@ -292,7 +296,8 @@ position: 29.77641773223877,1263.3887329101562
 <<play_music ALucidDream>>
 
 Narration: You journey back to the kitchen, feeling underwhelmed that you couldn’t find that darn recipe.
-Narration: Maybe it’s just your luck. Maybe you weren’t meant to have it. Or maybe…
+Narration: Maybe it’s just your luck. Maybe you weren’t meant to have it. Or maybe...
+<<play_sfx DoorCreak>>
 Narration: You hear a whining creak, and the sound of the kitchen door pushing open with a low groan. But the smell of the being that enters is... pleasant?
 Narration: A crisp, wintery smell that reminds you of snowball fights in the garden and hot chocolate by the fireplace. Comfort.
 

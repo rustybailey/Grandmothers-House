@@ -99,10 +99,20 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+  - name: GhostFadeIn
+    audioClip: {fileID: 8300000, guid: fc729513954a7834f83724733407f006, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: DoorCreak
+    audioClip: {fileID: 8300000, guid: 0f2f36401f359c341b2e830ca6cc23a5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
   musicTracks:
   - name: GhostInYourPianoLullaby
     audioClip: {fileID: 8300000, guid: 50fd236ccac7ef14f86765d3920316a1, type: 3}
-    volume: 0.7
+    volume: 0.8
     pitch: 1
     loop: 0
   - name: BeautyofMaths
