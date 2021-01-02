@@ -115,6 +115,17 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
+
+    public void FadeOutCurrentlyPlayingMusic(float duration)
+    {
+        foreach (Sound track in musicTracks)
+        {
+            if (track.IsPlaying())
+            {
+                StartCoroutine(track.FadeOut(duration));
+            }
+        }
+    }
 }
 
 [System.Serializable]
@@ -158,4 +169,19 @@ public class Sound
         return audioSource.isPlaying;
     }
 
+    public IEnumerator FadeOut(float duration)
+    {
+        float currentTime = 0;
+        float start = audioSource.volume;
+
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(start, 0, currentTime / duration);
+            yield return null;
+        }
+        Stop();
+        audioSource.volume = start;
+        yield break;
+    }
 }

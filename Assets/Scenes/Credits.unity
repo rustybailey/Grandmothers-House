@@ -1911,6 +1911,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7981656109756891055, guid: f02ee12830c23724aa03343207466c23, type: 3}
+      propertyPath: musicToPlay
+      value: GhostInYourPianoLullaby
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02ee12830c23724aa03343207466c23, type: 3}
 --- !u!1001 &8263293875945260477

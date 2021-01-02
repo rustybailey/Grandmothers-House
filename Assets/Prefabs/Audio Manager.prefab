@@ -120,3 +120,23 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 1
+  - name: Cate
+    audioClip: {fileID: 8300000, guid: 5aec368b648d12f428b4a87ed51727bd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: WalkingOnClouds
+    audioClip: {fileID: 8300000, guid: 3fb1a4bbf7df6634d8bb20fbf1fbc1f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: Blueberries
+    audioClip: {fileID: 8300000, guid: 1d6cea2dd4b45244ea8028b3670105ab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: ALucidDream
+    audioClip: {fileID: 8300000, guid: 2e6640642d0e0354eb048de767f85647, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1

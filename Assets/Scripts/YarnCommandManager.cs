@@ -38,6 +38,7 @@ public class YarnCommandManager : MonoBehaviour
         dialogueRunner.AddCommandHandler("play_music", PlayMusic);
         dialogueRunner.AddCommandHandler("stop_sfx", StopSfx);
         dialogueRunner.AddCommandHandler("stop_music", StopMusic);
+        dialogueRunner.AddCommandHandler("fade_out_music", FadeOutMusic);
         dialogueRunner.AddCommandHandler("load_scene", LoadSceneByName);
     }
 
@@ -64,6 +65,12 @@ public class YarnCommandManager : MonoBehaviour
     private void StopMusic(string[] parameters)
     {
         AudioManager.instance.StopCurrentlyPlayingMusic();
+    }
+
+    private void FadeOutMusic(string[] parameters)
+    {
+        float duration = float.Parse(parameters[0]);
+        AudioManager.instance.FadeOutCurrentlyPlayingMusic(duration);
     }
 
     private void PopulateBackgroundSpriteDictionary()
