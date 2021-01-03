@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Rubik-Black SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -445694820
   material: {fileID: 8788461867931486015}
-  materialHashCode: 0
+  materialHashCode: -609356356
   m_Version: 1.1.0
   m_SourceFontFileGUID: 78aee2262c732464ea5ec90c70524a42
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 78aee2262c732464ea5ec90c70524a42, type: 3}
@@ -2666,9 +2666,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

@@ -109,6 +109,31 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+  - name: LaughLow
+    audioClip: {fileID: 8300000, guid: a4dde91544f975040a40f493fca32ca7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: HorrorPianoHit
+    audioClip: {fileID: 8300000, guid: ff831becde5cc5f43b7850486faaf6ea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: DropBreak
+    audioClip: {fileID: 8300000, guid: b03de9b988b109b49b3e97c177d07093, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: CoffeeBeans
+    audioClip: {fileID: 8300000, guid: 0b74a109784aad64ebe9cd678e5aaad3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: OpenSlideGlassDoor
+    audioClip: {fileID: 8300000, guid: 8e212806b0e41484a9671e78bf9f39de, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
   musicTracks:
   - name: GhostInYourPianoLullaby
     audioClip: {fileID: 8300000, guid: 50fd236ccac7ef14f86765d3920316a1, type: 3}

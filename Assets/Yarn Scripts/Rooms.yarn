@@ -70,7 +70,9 @@ Narration: You start to look through the cabinets above the stove and see a vari
 <<show_item Cup>>
 <<play_sfx CeramicCup>>
 Narration: In the top left, there’s the mug you made her when you were a kid. It’s a bit yellowed due to the years of coffee stains. Years of love.
+<<play_sfx DropBreak>>
 Narration: Then, a crack. A bang.
+<<play_sfx CoffeeBeans>>
 Narration: And... the sound of sand? No, coffee grounds on the floor, tipping out of an empty bag.
 
 <<set_active_character Frankie>>
@@ -234,6 +236,7 @@ position: -506.8904463082389,543.8809768321736
 <<disable_all_things>>
 <<play_music Blueberries>>
 
+<<play_sfx OpenSlideGlassDoor>>
 Narration: You walk towards the back of the house and grab the cool handle of the sliding glass door. As you pull it open, the winter wind rushes in and bites at your skin.
 Narration: The garden has wilted by now, but the landscaping brings a smile to your face. At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
 
@@ -309,6 +312,7 @@ Narration: It's a crisp, wintery smell that reminds you of snowball fights in th
 
 <<set_active_character Victor>>
 
+<<play_sfx HorrorPianoHit>>
 Victor: Boo.
 You: <shake>HOLY CRAP!</shake>
 Victor: I know.
@@ -329,7 +333,7 @@ Victor: She would have wanted you to have it.
     Victor: Stella talked about you all the time.
     You: You don't call her Grammy G?
     Victor: Stella was too lovely for that nonsense. Though she liked the nickname.
--> You were her baking partner, right?
+-> You were her baking partner?
     Victor: Yes. I could reach the cabinets she couldn't.
     You: Convenient.
     Victor: As she got older, she had trouble with mixing too so I helped.
@@ -338,6 +342,7 @@ You: I never noticed they were always available...
 Victor: She would have done anything for you. She was the best kind of human.
 -> You seem like you were close.
     Victor: Not a lot of humans like me. I mean, look at me.
+    <<play_sfx LaughLow>>
     Narration: Victor laughs. Low and booming. His smile is warmer than expected.
     Victor: But Grandma Stella saw something in me. She always saw the good in everyone.
 -> How long have you lived here?
