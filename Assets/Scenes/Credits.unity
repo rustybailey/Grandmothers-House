@@ -470,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486077473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -517.28, y: -2982, z: -9721.554}
+  m_LocalPosition: {x: -541, y: -2930, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -560,7 +560,7 @@ Transform:
   - {fileID: 1535635686}
   - {fileID: 1328200236}
   m_Father: {fileID: 579813189}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &579813188
 GameObject:
@@ -596,8 +596,8 @@ Transform:
   - {fileID: 676372516}
   - {fileID: 1389785443}
   - {fileID: 1060503620}
-  - {fileID: 1147535667}
   - {fileID: 505997983}
+  - {fileID: 1147535667}
   m_Father: {fileID: 226874929}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -635,7 +635,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -3031.5527}
+  m_Offset: {x: 0, y: -3322.5037}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -646,7 +646,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1920, y: 7143.1055}
+  m_Size: {x: 1920, y: 7725.0073}
   m_EdgeRadius: 0
 --- !u!114 &579813192
 MonoBehaviour:
@@ -868,20 +868,26 @@ MonoBehaviour:
     Bailey</size>\r\n\r\n<size=\"60%\"><b>Programming</b></size>\r\n<size=\"50%\">Rusty
     Bailey</size>\r\n\r\n<size=\"60%\"><b>Additional Tools</b></size>\r\n<size=\"50%\">Yarn
     Spinner by Secret Lab\r\nText Animator for Unity by febucci</size>\r\n\r\n<size=\"60%\"><b>Sound
-    Effects</b></size>\r\n<size=\"40%\">From freesound</size>\r\n<size=\"30%\">\r\n\"Cell
-    Phone Vibrate.wav\" by SmartWentCody\r\nis licensed under CC BY 3.0\r\n\r\n\"Ceramic_Mug_Cup.wav\"
+    Effects</b></size>\r\n<size=\"40%\">From freesound</size>\r\n<size=\"30%\">\r\n\"20170101
+    Slide Glass Door 02\" by kijjaz\r\nis licensed under CC0 1.0\r\n\r\n\"Cell Phone
+    Vibrate.wav\" by SmartWentCody\r\nis licensed under CC BY 3.0\r\n\r\n\"Ceramic_Mug_Cup.wav\"
     by Jamitch2\r\nis licensed under CC0 1.0\r\n\r\n\"Chewing Crunch Cornflakes Knuspern\r\nSchnurpsen
     Eating Essen Munch\" by Borgory\r\nis licensed under CC0 1.0\r\n\r\n\"Door Squeak,
     Normal, D.wav\" by InspectorJ\r\nis licensed under CC BY 3.0\r\n\r\n\"Door, Front,
-    Opening, A.wav\" by InspectorJ\r\nis licensed under CC BY 3.0\r\n\r\n\"Picking
-    up one paper.wav\" by usamah\r\nis licensed under CC0 1.0\r\n\r\n\"PickupBook2.wav\"
-    by jomse\r\nis licensed under CC BY 3.0\r\n\r\n\"RECEPTION - Background chatter
-    (AMB)\" by MorneDelport\r\nis licensed under CC BY-NC 3.0\r\n\r\n\"RoomTone Hall
-    32x8x3 AC LONG 130626_01.wav\" by klankbeeld\r\nis licensed under CC BY 3.0\r\n\r\n\"Shoveling\"
-    by andersmmg\r\nis licensed under CC BY 3.0\r\n\r\n\"Spring Birds Loop with Low-Cut
-    (New Jersey)\" by hargissssound\r\nis licensed under CC0 1.0\r\n\r\n\"VHS Tape\"
-    by coltures\r\nis licensed under CC0 1.0\r\n\r\n\"Wind low rumble swipe.wav\"
-    by alexkandrell\r\nis licensed under CC BY 3.0</size>\r\n\r\n<size=\"60%\"><b>Music</b></size>\r\n<size=\"40%>From
+    Opening, A.wav\" by InspectorJ\r\nis licensed under CC BY 3.0\r\n\r\n\"Dropping
+    large kitchen knife on counter multiple times\" by pfranzen\r\nis licensed under
+    CC BY 3.0\r\n\r\n\"Dropping_Beans_Coffee_Sack_04.mp3\" by JonCon_Library\r\nis
+    licensed under CC BY 3.0\r\n\r\n\"Horror Piano hits\" by PearceWilsonKing\r\nis
+    licensed under CC0 1.0\r\n\r\n\"Laugh.wav\" by owly-bee\r\nis licensed under
+    CC BY 3.0\r\n\r\n\"Picking up one paper.wav\" by usamah\r\nis licensed under
+    CC0 1.0\r\n\r\n\"PickupBook2.wav\" by jomse\r\nis licensed under CC BY 3.0\r\n\r\n\"Plate
+    break FIN.wav\" by RynoStols\r\nis licensed under CC BY-NC 3.0\r\n\r\n\"RECEPTION
+    - Background chatter (AMB)\" by MorneDelport\r\nis licensed under CC BY-NC 3.0\r\n\r\n\"RoomTone
+    Hall 32x8x3 AC LONG 130626_01.wav\" by klankbeeld\r\nis licensed under CC BY
+    3.0\r\n\r\n\"Shoveling\" by andersmmg\r\nis licensed under CC BY 3.0\r\n\r\n\"Spring
+    Birds Loop with Low-Cut (New Jersey)\" by hargissssound\r\nis licensed under
+    CC0 1.0\r\n\r\n\"VHS Tape\" by coltures\r\nis licensed under CC0 1.0\r\n\r\n\"Wind
+    low rumble swipe.wav\" by alexkandrell\r\nis licensed under CC BY 3.0</size>\r\n\r\n<size=\"60%\"><b>Music</b></size>\r\n<size=\"40%>From
     Free Music Archive</size>\r\n<size=\"30%\">\r\n\"Lullaby\" by The Ghost in Your
     Piano\r\nis licensed under CC BY-NC 4.0\r\n\r\n\"The Beauty of Maths\" by Meyd\xE4n\r\nis
     licensed under CC BY 4.0\r\n\r\n\"Tired of life\" by Meyd\xE4n\r\nis licensed
@@ -991,13 +997,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147535666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -6456, z: 0}
+  m_LocalPosition: {x: 0, y: -7049, z: 0}
   m_LocalScale: {x: 108.017265, y: 108.017265, z: 108.017265}
   m_Children:
   - {fileID: 303360689}
   - {fileID: 1307965263}
   m_Father: {fileID: 579813189}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1257347467
 GameObject:
@@ -1205,7 +1211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314819590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 534, y: -2475, z: -9721.554}
+  m_LocalPosition: {x: 534, y: -2423, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -1526,7 +1532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535635685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 528, y: -3848, z: -9721.554}
+  m_LocalPosition: {x: 528, y: -3631, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -1608,7 +1614,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550186354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -449, y: -1602, z: -9721.554}
+  m_LocalPosition: {x: -497, y: -1640, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
