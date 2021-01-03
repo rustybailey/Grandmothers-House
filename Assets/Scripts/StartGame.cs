@@ -20,7 +20,7 @@ public class StartGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown && !isLoadingGame)
+        if (Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape) && !isLoadingGame)
         {
             isLoadingGame = true;
             StartCoroutine(LoadMainGame());
