@@ -1293,7 +1293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328200235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -438, y: -4528, z: -9721.554}
+  m_LocalPosition: {x: -438, y: -4646, z: -9721.554}
   m_LocalScale: {x: 41.673462, y: 41.673462, z: 41.673462}
   m_Children: []
   m_Father: {fileID: 505997983}
@@ -1339,7 +1339,7 @@ SpriteRenderer:
   m_SortingLayerID: 2144973659
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3685604762419a94da7c480273a5d559, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a5f63348a5b372449099d2966041166, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1972,7 +1972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7981656109756891055, guid: f02ee12830c23724aa03343207466c23, type: 3}
       propertyPath: musicToPlay
-      value: GhostInYourPianoLullaby
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02ee12830c23724aa03343207466c23, type: 3}

@@ -11,10 +11,11 @@ position: 724.5971846580505,504.4099655151367
 Narration: You wander into the living room. There are boxes of books and VHS tapes piled up next to the couch.
 Narration: Grandma always liked recording reruns of horror movies. Your first nightmares came from those movie nights.
 Narration: Ah, good times.
-Narration: You pick up a tape with “Possessed Murder Doll” written on the side. Oh yeah, this one did a real number on your psyche.
+Narration: You pick up a tape with “Possessed Murder Doll” written on the side.
 <<show_item Tape>>
 <<play_sfx VHSTape>>
 <<wait 2>>
+Narration: Oh yeah, this one did a real number on your psyche.
 
 <<set_active_character Shelby>>
 <<play_sfx GhostFadeIn>>
@@ -112,8 +113,9 @@ Frankie: Eh, they’re livin’ in Snoozeville, if you know what I mean.
 -> There are other ghosts?!
     Frankie: Heck yeah, daddy-o!
     Frankie: Some of them pull pranks too. But not like me. But not like THIS!
+    <<play_sfx CoffeeBeans>>
     You: ...did you just spill more coffee beans?
-    Frankie: Classic (wiping away tear)
+    Frankie: Classic *wiping away tear*
 You: So, you must be the "funny" ghost.
 Frankie: Wow, that’s... wow. Yes. Yes I am. About time I'm appreciated for my talent!
 -> Did you prank Grandma?
@@ -191,7 +193,7 @@ Edith: Then I’d like one last look at them. I like admiring another photograph
     You: That's cool. What type of birds?
     Edith: Pigeons.
     You: ...just pigeons?
-    Edith: Of course not! But it was all I had access to.
+    Edith: Of course not! But I thought they were <rainb>majestic</rainb>.
     You: So you were the pigeon photographer?
     Edith: I told you- I photographed other birds too!
     You: ...
@@ -204,7 +206,7 @@ Edith: That's the one!
 You: Can't wait.
 Edith: ...Gosh, I can’t find anything around here. I can’t even find my camera!
 You: The one around your neck?
-Edith: No, no. It was a different one with a long lens.
+Edith: No, no. It was a different one with a longer lens.
 You: When did you last see it?
 Edith: Twenty years ago.
 You: ...Oh.
@@ -219,7 +221,7 @@ Edith: You know, Grammy G was always good at comforting me when I’d lose thing
 You: Sure?
 Edith: Okay, here we go. *pat pat* Feel better?
 You: No, now I'm cold.
-Edith: Sorry. Downsides of being a ghost. Well, good luck finding the recipe.
+Edith: Sorry. One of the downsides of being a ghost. Well, good luck finding the recipe.
 You: Thanks. Good luck finding your camera.
 Edith: No, that one is long gone. But we all need to move on eventually.
 You: That was oddly comforting.
@@ -238,7 +240,9 @@ position: -506.8904463082389,543.8809768321736
 
 <<play_sfx OpenSlideGlassDoor>>
 Narration: You walk towards the back of the house and grab the cool handle of the sliding glass door. As you pull it open, the winter wind rushes in and bites at your skin.
-Narration: The garden has wilted by now, but the landscaping brings a smile to your face. At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
+Narration: The landscaping brings a smile to your face. You remember cleaning pinecones out of the yard.
+Narration: Did she just need a helping hand or was this an excuse to spend time together outside?
+Narration: At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
 
 <<set_active_character Gertrude>>
 <<play_sfx GhostFadeIn>>
@@ -256,7 +260,7 @@ Gertrude: Well not those.
 You: Oh.
 Gertrude: I’m trying to grow these blueberries that she would mix in her cookies.
 You: I’m actually looking for that recipe! Do you happen to know where it is?
-Gertrude: I don’t know what a recipe is, but I found this.
+Gertrude: I don’t know where that is, but I found this.
 <<show_item Trowel>>
 <<play_sfx Shovel>>
 <<wait 1>>
@@ -312,7 +316,6 @@ Narration: It's a crisp, wintery smell that reminds you of snowball fights in th
 
 <<set_active_character Victor>>
 
-<<play_sfx HorrorPianoHit>>
 Victor: Boo.
 You: <shake>HOLY CRAP!</shake>
 Victor: I know.
@@ -359,12 +362,13 @@ Victor: Well, this recipe won't bring that back, I'm afraid.
 You: You're right. But it made me feel good. It made me feel...safe. Is that weird?
 Victor: You're talking to a ten foot tall skeleton. Do you still feel safe?
 You: Yeah. I think I do.
-Victor: Then take the recipe. It's all you need.
+Victor: Then take the recipe. Bake the cookies.
 You: Thanks.
 Victor: So, what now? How do you feel now?
-You: I feel like...
 <<fade_out_music 1.5>>
 <<wait 1.5>>
+<<play_music GhostInYourPianoLullaby>>
+You: I feel like...
 <<load_scene Credits>>
 ===
 title: SelectRoom
@@ -412,7 +416,7 @@ Mom: Yeah... this sure is a <wave>grave</wave> affair.
 You: Mom. Too soon.
 Mom: Sorry, you know I don’t deal with this stuff well.
 You: I know.
-Mom: Think you can come by her house tomorrow to help us clean it out before we sell?
+Mom: Think you can come by her house tomorrow? We need to clean it before we sell.
 You: Of course.
 You: Oh! And I'd love to find her cookie recipe if we have time.
 Mom: Good luck finding that. We'll need to get that place cleaned out quick, though. I'm <wave>dead serious</wave>.
