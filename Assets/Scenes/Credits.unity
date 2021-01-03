@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 4
-  scrollSpeed: 5
+  scrollSpeed: 0.8
 --- !u!1 &676372515
 GameObject:
   m_ObjectHideFlags: 0
