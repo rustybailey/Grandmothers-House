@@ -50,7 +50,7 @@ Shelby: <size="40%"><wave>oh, the horror...</wave></size>
 You: Anyway, I'm trying to find her cookie recipe. Do you know where she kept it?
 Shelby: No, but... <shake>Victor</shake> should know.
 You: I heard he smells.
-Shelby: It's...haunting.
+Shelby: It's... haunting.
 You: Right. Thanks for the chat.
 Shelby: Wait! ...please take the movie with you!
 Narration: You grab the movie. Shelby flinches.
@@ -179,7 +179,8 @@ Narration: On the bedside table, you see a picture of Grandma and Grandpa on the
 <<wait 2>>
 Narration: They look so young. So happy. You wonder if they look the same now that they’re back together... Uh... you'd rather not think about that, actually...
 Narration: There’s a stack of photo albums littered on the floor.
-Narration: Grandma always said you looked like your grandfather. You always said you looked more like her. Floating over an open photo album is another ghost.
+Narration: Grandma always said you looked like your grandfather. You always said you looked more like her.
+Narration: Floating over an open photo album is another ghost.
 
 <<set_active_character Edith>>
 <<play_sfx GhostFadeIn>>
@@ -241,7 +242,7 @@ position: -506.8904463082389,543.8809768321736
 <<play_sfx OpenSlideGlassDoor>>
 Narration: You walk towards the back of the house and grab the cool handle of the sliding glass door. As you pull it open, the winter wind rushes in and bites at your skin.
 Narration: The landscaping brings a smile to your face. You remember cleaning pinecones out of the yard.
-Narration: Did she just need a helping hand or was this an excuse to spend time together outside?
+Narration: Did she just need a helping hand or was it an excuse to spend time together outside?
 Narration: At the corner of your eye, a bush rustles. Another cool gust of wind and a ghost appears.
 
 <<set_active_character Gertrude>>
@@ -295,7 +296,7 @@ Gertrude: Like, geez, <wiggle>I'm working on it, Victor!</wiggle>
 You: Oh, he knows how to bake them?
 Gertrude: Yep, he baked with Grammy G all the time. If anyone knows about your cookies, he would.
 You: Do you know where I could find him?
-Gertrude: Just keep looking. He'll be lurking in some dark corner of the house.
+Gertrude: Just keep looking. He'll be lurking in some <wave>dark corner</wave> of the house.
 You: Well, thanks for the tip. I'll keep an eye out.
 Gertrude: Good luck!
 [[SelectRoom]]
